@@ -13,7 +13,8 @@ A TypeScript application that allows users to create a new vehicle or select an 
 ## Installation
 Clone Repository from GitHub. Install the node module "Inquirer" using the command "npm i inquirer".
 ## Usage
-In the CLI navigate to the src folder of the repository and run the command "npm run start". Follow the prompted instructions to create a new vehicle or select and existing one. Once created or selected, the user can perform various actions on those vehicles.
+In the CLI, navigate to the repository folder and run the command "npm run start". Follow the prompted instructions to create a new vehicle or select and existing one. Once created or selected, the user can perform various actions on those vehicles.
+Video Demonstration available [HERE](https://drive.google.com/file/d/1YWpr1bq3OQHz7pTEybhctOa0Wz46YjRI/view)
 ## Contribution
 Eric Neff
 ## Test

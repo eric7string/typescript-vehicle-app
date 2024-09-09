@@ -46,6 +46,7 @@ class Motorbike extends Vehicle {
 
 public wheelie = () => {
   console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
+ 
 };
 
   override printDetails(): void {

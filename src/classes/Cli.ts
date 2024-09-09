@@ -326,6 +326,7 @@ class Cli {
 
     if (this.selectedVehicle instanceof Motorbike) {
       choices.push('Wheelie');
+      
     }
     choices.push('Select or create another vehicle');
     choices.push('Exit');
@@ -400,9 +401,9 @@ class Cli {
         } else if (answers.action === 'Tow') {
           this.findVehicleToTow();
           return;
+
         } else if (answers.action === 'Wheelie') {
           (this.selectedVehicle as Motorbike).wheelie();
-          return;
         }
         
         else if (answers.action === 'Select or create another vehicle') {
